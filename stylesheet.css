@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@keyframes blink{
+    0%{
+        color:cadetblue;
+    }
+    25%{
+        color:crimson;
+    }
+    50%{
+        color:darkgoldenrod;
+    }
+    75%{
+        color:darkmagenta;
+    }
+    100%{
+        color: cadetblue;
+    }
+}
+
+body{
+    height:150vh;
+}
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Poppins";
+}
+
+  .clip{
+    height:100%;
+    width:100%;
+    clip-path: circle(53.2% at 81% 50%);
+    background-image: linear-gradient(to left, #47636E,#C4ABD2);
+
+    position:absolute;
+    top:0;
+    z-index: -1;
+
+    background-image: url(/flower.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    
+}  
+
+.logo{
+    margin-top:3rem;
+    width:5rem;
+}
+
+.navbar{
+    height:6vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    mix-blend-mode: overlay;
+
+}
+
+.navbar-links{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-links a{
+    text-decoration: none;
+    margin:2rem;
+}
+
+.contact-btn{
+    color:black;
+    padding:15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.main-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:94vh;
+}
+
+.container{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first-column{
+    flex:1;
+    font-size: 3rem;
+    height:100%;
+    display:flex;
+    letter-spacing: 2px;
+    line-height: 10rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    mix-blend-mode: multiply;
+}
+
+.first-column h1{
+    letter-spacing: 3rem;
+    font-size:7rem;
+}
+
+.text-content{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.second-column{
+    flex:1;
+    align-items: center;
+    transition: transform 1s; 
+}
+
+.second-column:hover{
+    transform:translateY(-15px);
+}
+
+.second-column img{
+    margin-left:25%;
+    width:25%;
+}
+
+.secondary-content{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    text-align: center;
+    width:50%;
+    height:80%;
+}
+
+.text h1{
+    text-align: start;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+.text p{
+    margin-top:50px;
+    font-size: 1.1rem;
+}
+
+.about{
+    height:50vh;
+    border: cyan 5px solid;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#131B26;
+    color:white;
+}
+
+.about-us{
+    border: crimson 5px solid;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.what-we-do{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.secondary{
+    color:white;
+    background-color:#131B26;
+}
+
+.for-you h1{
+    text-align: end;
+}
+
+.who-we-are h1{
+    text-align: center;
+}
+
+.animation{
+    animation: blink 10s infinite;
+    -webkit-animation: blink 10s infinite;;
+}
+
+.third{
+    height:25vh;
+    background-color:#131B26;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.third a{
+    color:white;
+}
+
+.message{
+    position: absolute;
+    bottom:20px;
+    right:5px;
+    width:60px;
+}
+
+.newsletter{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+
+.newsletter .input{
+    padding:15px 70px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+
