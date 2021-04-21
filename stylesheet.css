@@ -326,4 +326,28 @@ body{
     }
 }
 
+@media screen and (max-height:780px) {
+
+    .text h1{
+        font-size: 18px;
+    }
+    .text p{
+        font-size: 11px;
+    }
+    .newsletter{
+        position:relative;
+        width: 53%;
+    }
+
+    .newsletter img{
+        position: absolute;
+        top:20px;
+        width:15%;
+    }
+
+    .newsletter p{
+        margin-top:15px;
+    }
+}
+
 
