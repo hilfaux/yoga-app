@@ -326,7 +326,7 @@ body{
     }
 }
 
-@media screen and (max-height:780px) {
+@media screen and (max-height:800px) {
 
     .text h1{
         font-size: 18px;
