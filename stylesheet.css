@@ -240,3 +240,90 @@ body{
     text-align: center;
 }
 
+
+@media screen and (max-width:1024px){
+
+    html{
+        font-size:0.8rem;
+    }
+
+    .clip{
+        display: none;
+    }
+    .main-content{
+        color:black;
+        
+    }
+
+    .second-column{
+        display:none;
+    }
+}
+
+@media screen and (max-width:812px) {
+
+    .main-content .animation{
+        font-size:90%;
+    }
+
+    .logo{
+        width:8%;
+    }
+    .contact-btn{
+        padding:10px 20px 10px 20px;
+    }
+
+    .secondary-content h1, p{
+        font-size: 2rem;
+    }
+
+    .secondary-content p{
+        font-size: 1rem;
+    }
+
+    .newsletter{
+        width:300px;
+        position:relative;
+    }
+
+    .message{
+        position:absolute;
+        top:10px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .main-content .animation{
+        font-size:50%;
+    }
+
+    .main-content .first-column-text p{
+        font-size:45%;
+    }
+
+    .text{
+        text-align: center;
+        height:100%;
+    }
+
+    .text-primary h1{
+        text-align: center;
+    }
+    .for-you h1{
+        text-align: center;
+    }
+
+    .footer{
+        font-size:0.8rem;
+    }
+
+    .newsletter{
+        width:70%;
+    }
+
+    .newsletter p{
+        font-size: 1.5rem;
+    }
+}
+
+
