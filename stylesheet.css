@@ -350,4 +350,46 @@ body{
     }
 }
 
+@media screen and (max-width:360px) {
+
+    .logo, .contact-btn{
+        display:none;
+    }
+
+    .secondary-content h1{
+        font-size:13px;
+    }
+
+    .text p{
+        font-size:10px;
+    }
+
+    .first-column h1{
+        align-items: center;
+        letter-spacing: 25px;
+        text-align: center;
+    }
+
+    .newsletter{
+        width:200px;
+    }
+
+    .input{
+        width:40%;
+        font-size: 9px;
+        position:relative;
+    }
+
+    .newsletter img{
+        position:absolute;
+        top:22px;
+        left:180px;
+        width:15%;
+    }
+
+    .newsletter p{
+        font-size:12px;
+    }
+}
+
 
